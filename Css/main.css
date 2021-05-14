@@ -1,0 +1,295 @@
+@font-face {
+    font-family: regular;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+
+* {
+    font-family: regular;
+    font-weight: 400;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 50px);
+    position: relative;
+
+}
+
+.container {
+    padding-top: 50px;
+    color: black;
+    background-color: rgb(242, 242, 242);
+    width: 750px;
+}
+
+
+.log-screen {
+    width: 356px;
+    height: 379px;
+    margin: 0px auto;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 8px 0px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.log-screen img {
+    margin: 0px 133px 0px;
+    width: 40px;
+}
+
+.log-screen h1 {
+    text-align: center;
+    font-size: 24px;
+    font-family: bold;
+    margin-top: 12px;
+    margin-bottom: 22px;
+    margin-left: 18.359px;
+    margin-right: 18.375px;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #656B73;
+}
+
+input {
+    width: 306px;
+    height: 44px;
+    margin: 0px 0px 16px;
+    padding: 0px 0px 0px 12px;
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 4px 4px;
+    font-size: 14px;
+    color: rgb(19, 19, 19);
+    font-family: regular;
+    font-weight: 700;
+}
+
+#Password {
+    margin: 0px;
+}
+
+.forget {
+    display: flex;
+    color: #656B73;
+    font-size: 12px;
+    margin-top: 7px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 16px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.span-hover {
+    width: 92px;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(255, 211, 1);
+    bottom: -4px;
+    display: none;
+}
+
+.forget:hover .span-hover {
+    display: inline-block;
+}
+
+input:hover {
+    border-bottom: 2px solid rgb(255, 211, 1);
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(255, 211, 1);
+    outline: none;
+
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    background-color: #FFFC00;
+    color: #16191C;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 11px 24px 10px;
+    font-size: 14px;
+    border-radius: 45px 45px;
+    border: none;
+    margin: 0px auto;
+    display: block;
+}
+button:focus{
+    border: none;
+    outline: none;
+}
+.creat-account {
+    display: flex;
+    font-size: 16px;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+.creat-account span {
+    margin-right: 8px;
+    font-weight: 400px;
+}
+
+.creat-account a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.creat-account a:hover {
+    border-bottom: 2px solid rgb(255, 211, 1);
+
+}
+
+/* i hate everything about you  */
+/* i hate everything about you  */
+/* i hate everything about you  */
+/* i hate everything about you  */
+/* i hate everything about you  */
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgb(0 0 0 / 4%) 0px -2px 1px 0px;
+    border-top: solid 1px #D4D4D4;
+}
+
+ul div,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    line-height: 25px;
+}
+
+ul div {
+    color: rgb(0, 0, 0);
+    font-family: regular;
+    position: relative;
+    font-weight: 900;
+    font-size: 14px;
+    height: 45.54px;
+    padding: 10px 40px;
+    border-bottom: solid 1px #D4D4D4;
+    cursor: pointer;
+}
+
+ul div:hover~li {
+    display: inline-block;
+}
+ul div:hover .last-shit{ 
+    top: 15px;
+    transform: rotate(45deg);
+
+}
+.last-shit{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    left: 16px;
+    top: 17px;
+    transform: rotate(-45deg);
+}
+
+li {
+    height: 45.54px;
+    padding: 10px 40px;
+    border-bottom: solid 1px #D4D4D4;
+    list-style-type: style type none;
+    ;
+    display: none;
+}
+
+li:hover {
+    border-bottom: 2px solid rgb(255, 211, 1);
+
+}
+
+li a {
+    text-decoration: none;
+    color: #656B73;
+    font-family: regular;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.language {
+    height: 91px;
+    padding: 14px 20px 15px;
+
+}
+
+.language div {
+    color: rgb(0, 0, 0);
+    font-family: regular;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+select {
+    margin: 10px 0px 0px;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px 5px;
+    border: 1px solid rgb(204, 204, 204);
+    height: 34px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: regular;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.black {
+    height: 47px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    align-items: center;
+}
+
+.black:hover {
+    border-bottom: 2px solid rgb(255, 211, 1);
+}
+
+.black a {
+    text-decoration: none;
+    color: #656B73;
+    font-family: regular;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.black:hover .white-link {
+    color: white;
+
+}
